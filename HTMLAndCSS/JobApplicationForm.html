@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Job Application
+    </title>
+</head>
+<body>
+    <h1>JOB APPLICATION FORM</h1>
+
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+
+        <br/>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br/>
+
+        <label for="PhoneNo">Phone Number</label>
+        <input type="tel" id="PhoneNo" name="PhoneNo">
+        <br/>
+
+        <label for="Resume">Resume</label>
+        <input type="file" id="Resume" name="Resume">
+        <br/>
+
+        <label for="Experience">Experience</label>
+        <input type="number" id="Experience" min="1" max="10">
+        <br/>
+
+        <fieldset>
+            <legend>Field Of Interest</legend>
+
+            <label for="checkbox1">HTML</label>
+            <input type="checkbox" id="checkbox1" name="checkbox1">
+
+            <label for="checkbox2">CSS</label>
+            <input type="checkbox" id="checkbox2" name="checkbox2">
+
+            <label for="checkbox3">JavaScript</label>
+            <input type="checkbox" id="checkbox3" name="checkbox3">
+        
+        </fieldset>
+
+        <label for="highestEducation">Highest Education</label>
+        <select id="highestEducation" name="highestEducation">
+            <option value="B.Tech">Bachelors of Technology</option>
+            <option value="12th">12<sup>th</sup></option>
+            <option value="10th">10<sup>th</sup></option>
+        </select>
+        <br/>
+
+        <fieldset>
+            <legend></legend>
+            <label for="FullTime"> FullTime</label>
+            <input type="radio" id="FullTime" name="avail">
+
+            <label for="PartTime">PartTime</label>
+            <input type="radio" id="PartTime" name="avail">
+        </fieldset>
+
+        <label for="textarea1">Additional Comments</label>
+        <textarea id="textarea1" col="30" row="25" name=""></textarea>
+
+    </form>
+</body>
+</html>
